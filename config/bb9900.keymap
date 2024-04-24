@@ -146,7 +146,7 @@
                               \      aA        |       0        |                    SPACE                  |          SYM          |         aA    /
                                 -------------------------------------------------------------------------------------------------------------------
         */
-                 		&to  0                                                                                	&MAN
+                 		 &mkp LCLK                                                                                          &mkp RCLK
 
 		            &mtt  K_CMENU TAB		 &kp LGUI		      &mkp LCLK			&mtt ESC K_BACK		 &mkp RCLK
 
