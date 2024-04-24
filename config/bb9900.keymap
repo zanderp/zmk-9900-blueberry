@@ -51,7 +51,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <500>;
-            bindings = <&sl RCTRL>, <&to MEDIA>;
+            bindings = <&sk RCTRL>, <&to MEDIA>;
         };
     };
     behaviors {
