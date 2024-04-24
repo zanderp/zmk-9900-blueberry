@@ -45,6 +45,15 @@
             bindings = <&sl ALT>, <&to ALT>;
         };
     };
+
+    behaviors {
+        CTRLR: tap_dance_1 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <400>;
+            bindings = <&sk LCTRL>, <&to MEDIA>;
+        };
+    };
     behaviors {
         SHFT: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
@@ -154,7 +163,7 @@
     &mtt LS(A) A	&mtt LS(S) S      &mtt LS(D) D	&mtt LS(F) F     &mtt LS(G) G	&mtt LS(H) H	&mtt LS(J) J	&mtt LS(K) K	&mtt LS(L) L     &kp BSPC
     &ALTL		   &mtt LS(Z) Z      &mtt LS(X) X	&mtt LS(C) C     &mtt LS(V) V	&mtt LS(B) B	&mtt LS(N) N	&mtt LS(M) M	&mtt K_PP LG(N)  &kp ENTER
 
-    		         &SHFT				 &hm2 EP_TOG K_PWR	      &kp SPACE			&sk LALT		 &sk LCTRL
+    		         &SHFT				 &hm2 EP_TOG K_PWR	      &kp SPACE			&sk LALT		 &CTRLR
 
             >;
         };
@@ -197,10 +206,10 @@
             bindings = <        
 		&to  0													&to  0
  
-    &none			&none			&none				&none				&none  
+	    &kp K_PREV    			 &kp K_VOL_DN		      &kp K_PP			&kp K_VOL_UP		 &kp K_NEXT  
 
-    &none		&none     	&none    	&none  	  		&none			&none		&none    	&none	 	 &none		&kp DEL
-    &none	     	&none   	&none      	&none	 		&none		     	&none	      	&none       	&none       	 &none		&kp BSPC
+    &none		&kp UP     	&none    	&none  	  		&none			&none		&none    	&none	 	 &none		&kp DEL
+    &kp LEFT	     	&kp DOWN   	&kp RIGHT      	&none	 		&none		     	&none	      	&none       	&none       	 &none		&kp BSPC
     &none     	 	&none     	&none     	&none    		&none	     		&none		&none       	&none       	 &none		&kp ENTER
 	
     &none			&to  0			&none				&none				&none
