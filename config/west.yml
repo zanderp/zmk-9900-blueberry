@@ -3,10 +3,10 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: ZitaoTech
-      url-base: https://github.com/ZitaoTech
+      url-base: https://github.com/zanderp
   projects:
     - name: zmk
-      remote: ZitaoTech
+      remote: zanderp
       revision: bbkeyboard_tp
       import: app/west.yml
   self:
