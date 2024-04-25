@@ -193,7 +193,7 @@
 
     		&bt BT_SEL 0            	 &bt BT_SEL 1                 &bt BT_CLR                &bt BT_SEL 2             &bt BT_SEL 3
 
-    &none       	&none   	&none     	&sys_reset	&ext_power EP_TOG 	&none         	&none	           &none           &none      	   &none
+    &bt BT_SEL 4       	&none   	&none     	&sys_reset	&ext_power EP_TOG 	&none         	&none	           &none           &none      	   &none
     &none   		&none	  	&none	 	   &none     	&none	          	   &none     	   &none	           &none         	&none      	   &none
     &to  0  		&none    	&none    	&none      	&bl BL_DEC       	   &bl BL_TOG   	&bl BL_INC       &none           &bootloader    &none
 
