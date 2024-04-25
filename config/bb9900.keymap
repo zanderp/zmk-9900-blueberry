@@ -47,7 +47,7 @@
     };
 
     behaviors {
-        CTRLR: tap_dance_5 {
+        CTRLR: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <500>;
