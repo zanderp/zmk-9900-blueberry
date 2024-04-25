@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: ZitaoTech
+    - name: zanderp
       url-base: https://github.com/zanderp
   projects:
     - name: zmk
