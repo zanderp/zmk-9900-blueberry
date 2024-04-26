@@ -13,4 +13,4 @@
 ---
 include:
   - board: bb9900
-  shield: settings_reset
+    shield: settings_reset
